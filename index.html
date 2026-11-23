@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre qué es el número pi, para qué sirve y algunos datos curiosos sobre este número fascinante.">
+    <title>Pi — Un número infinito de posibilidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <a class="marca" href="#inicio" aria-label="Pi, volver al inicio">
+            <span class="marca-icono">π</span>
+            <span>PI<span class="marca-punto">.</span></span>
+        </a>
+        <nav class="navegacion" aria-label="Navegación principal">
+            <a href="#descubre">Descubre</a>
+            <a href="#formulas">Fórmulas</a>
+            <a href="#curiosidades">Curiosidades</a>
+            <a class="nav-boton" href="#recursos">Explorar más <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <p class="etiqueta"><span></span> MATEMÁTICAS SIN LÍMITES</p>
+                <h1>Un número<br>que nunca <span>termina.</span></h1>
+                <p class="hero-descripcion">Conoce π: el número que conecta todos los círculos y esconde infinitos decimales.</p>
+                <a class="boton-principal" href="#descubre">Empezar a descubrir <span aria-hidden="true">↓</span></a>
+                <div class="hero-dato">
+                    <span class="hero-dato-numero">3.14159...</span>
+                    <span>y sigue para siempre</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-circulo hero-circulo-grande"></div>
+                <div class="hero-circulo hero-circulo-pequeno"></div>
+                <img src="img/pi.png" alt="Ilustración del símbolo pi, π">
+                <span class="visual-etiqueta">INFINITO<br>EN UN CÍRCULO</span>
+            </div>
+            <a class="bajar" href="#descubre" aria-label="Bajar a la siguiente sección">↓</a>
+        </section>
+
+        <section class="seccion descubre" id="descubre">
+            <div class="seccion-titulo">
+                <p class="etiqueta"><span></span> LO ESENCIAL</p>
+                <h2>¿Qué es <span>π</span>?</h2>
+            </div>
+            <div class="descubre-contenido">
+                <p class="texto-destacado">Pi es la relación entre la longitud de una circunferencia y su diámetro. No importa si el círculo es pequeño o enorme: el resultado siempre es el mismo.</p>
+                <div class="proporcion">
+                    <div class="proporcion-circulo" aria-hidden="true"><span>π</span></div>
+                    <div class="proporcion-lineas">
+                        <span><i class="linea-circunferencia"></i> Circunferencia</span>
+                        <span><i class="linea-diametro"></i> Diámetro</span>
+                    </div>
+                </div>
+                <p class="nota">Si divides la circunferencia entre el diámetro, obtienes aproximadamente <strong>3.14159</strong>.</p>
+            </div>
+        </section>
+
+        <section class="seccion formulas" id="formulas">
+            <div class="seccion-titulo">
+                <p class="etiqueta"><span></span> PI EN ACCIÓN</p>
+                <h2>Un círculo,<br><span>dos fórmulas.</span></h2>
+            </div>
+            <div class="tarjetas-formula">
+                <article class="tarjeta">
+                    <span class="tarjeta-numero">01 / PERÍMETRO</span>
+                    <div class="mini-circulo" aria-hidden="true"></div>
+                    <h3>La vuelta completa</h3>
+                    <p>Calcula cuánto mide el borde del círculo.</p>
+                    <div class="formula">C = 2 × π × r</div>
+                </article>
+                <article class="tarjeta tarjeta-acento">
+                    <span class="tarjeta-numero">02 / ÁREA</span>
+                    <div class="mini-circulo mini-circulo-relleno" aria-hidden="true"></div>
+                    <h3>Todo lo que ocupa</h3>
+                    <p>Calcula el espacio que hay dentro del círculo.</p>
+                    <div class="formula">A = π × r<sup>2</sup></div>
+                </article>
+            </div>
+            <p class="aclaracion"><strong>r</strong> es el radio: la distancia del centro del círculo hasta su borde.</p>
+        </section>
+
+        <section class="seccion curiosidades" id="curiosidades">
+            <div class="curiosidades-imagen">
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Fórmulas matemáticas escritas en una pizarra" loading="lazy">
+                <span class="imagen-pie">LAS MATEMÁTICAS ESTÁN EN TODAS PARTES</span>
+            </div>
+            <div class="curiosidades-texto">
+                <p class="etiqueta"><span></span> ¿SABÍAS QUE...?</p>
+                <h2>Pequeño símbolo.<br><span>Grandes historias.</span></h2>
+                <ul class="lista-curiosidades">
+                    <li><span>01</span><p>Sus decimales no terminan y no siguen un patrón que se repita.</p></li>
+                    <li><span>02</span><p>El 14 de marzo se celebra el Día de Pi: 3/14 en el formato de fecha estadounidense.</p></li>
+                    <li><span>03</span><p>Se usa en ingeniería, arquitectura, astronomía y muchas otras ciencias.</p></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="recursos" id="recursos">
+            <p class="etiqueta"><span></span> SIGUE EXPLORANDO</p>
+            <h2>La curiosidad no tiene fin.</h2>
+            <p>¿Quieres aprender un poco más? Aquí tienes algunos buenos lugares para empezar.</p>
+            <div class="enlaces-recursos">
+                <a href="https://es.wikipedia.org/wiki/N%C3%BAmero_%CF%80" target="_blank" rel="noopener noreferrer">Historia de π <span aria-hidden="true">↗</span></a>
+                <a href="https://www.britannica.com/science/pi-mathematics" target="_blank" rel="noopener noreferrer">Pi en Britannica <span aria-hidden="true">↗</span></a>
+                <a href="https://www.exploratorium.edu/pi" target="_blank" rel="noopener noreferrer">Exploratorium <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <a class="marca" href="#inicio"><span class="marca-icono">π</span><span>PI<span class="marca-punto">.</span></span></a>
+        <p>Hecho para mentes curiosas <span aria-hidden="true">✳</span></p>
+        <a class="volver-arriba" href="#inicio">Volver arriba ↑</a>
+    </footer>
+</body>
+</html>
